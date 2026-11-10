@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-dak-tb",
+  "platform": {
+    "commit": "a6753f2fda6b5b67e00bec86a7e09506f86af327"
+  },
+  "source": {
+    "repo": "litlfred/smart-dak-tb",
+    "ref": "main",
+    "commit": "6845fb7810ea308858070cd0303ebc8a64bfccb8"
+  },
+  "builtAt": "2026-11-10T20:11:02.885Z",
+  "ast": {
+    "commit": "70d6e03251c0150cb53ede7f512972b4dc2a7219",
+    "verdict": "valid",
+    "kind": "full"
+  }
+}
