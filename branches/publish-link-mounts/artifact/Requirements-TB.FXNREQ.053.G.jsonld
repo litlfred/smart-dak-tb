@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "Requirements-TB.FXNREQ.053.G.jsonld",
+  "@type": "fhir:Requirements",
+  "dcterms:identifier": "Requirements/TB.FXNREQ.053.G",
+  "schema:name": " Analyse and interpret the reports",
+  "dcterms:title": " Analyse and interpret the reports",
+  "dcterms:description": "*Business process* (G) Aggregate reporting and data use:\nActivity:  Analyse and interpret the reports:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To view a range of standardized visualizations (e.g. charts, tables, maps)\n\nso that\n\n>I am able to use data collected at the facility for service delivery and informing programmatic actions with the aim of improving the quality of care for clients with TB",
+  "schema:version": "1.0.2",
+  "dcterms:type": "Requirements: Formal Requirements",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.053.G"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-tb/d9efcd57c846bf5233fa9971cd6b5f70e40e8c2b/resources/Requirements/TB.FXNREQ.053.G--0811b53a.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "70d6e03251c0150cb53ede7f512972b4dc2a7219"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.dak-tb",
+    "schema:version": "1.0.2",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/dak-tb"
+    }
+  }
+}

@@ -1,0 +1,2332 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-index-jsonld/v1",
+  "@id": "index.jsonld",
+  "@type": "fhir:ImplementationGuide",
+  "dcterms:identifier": "smart.who.int.dak-tb",
+  "schema:version": "1.0.2",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/dak-tb"
+  },
+  "dcterms:title": "SMART DAK TB",
+  "schema:numberOfItems": 255,
+  "schema:hasPart": [
+    {
+      "@id": "ActorDefinition-healthinformationofficer.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthinformationofficer",
+      "dcterms:title": "Health information officer",
+      "dcterms:description": "Actor Health information officer from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ActorDefinition/healthinformationofficer"
+      }
+    },
+    {
+      "@id": "ActorDefinition-healthworkere.g.nurse.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthworkere.g.nurse",
+      "dcterms:title": "Health worker (e.g. nurse)",
+      "dcterms:description": "Actor Health worker (e.g. nurse) from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ActorDefinition/healthworkere.g.nurse"
+      }
+    },
+    {
+      "@id": "ActorDefinition-healthworkerordataentryclerk.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthworkerordataentryclerk",
+      "dcterms:title": "Health worker or data entry clerk",
+      "dcterms:description": "Actor Health worker or data entry clerk from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ActorDefinition/healthworkerordataentryclerk"
+      }
+    },
+    {
+      "@id": "ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.jsonld",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/healthworkerordataentryclerkormedicalofficereceptionist",
+      "dcterms:title": "Health worker or data entry clerk or medical office receptionist",
+      "dcterms:description": "Actor Health worker or data entry clerk or medical office receptionist from Function Requirements",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ActorDefinition/healthworkerordataentryclerkormedicalofficereceptionist"
+      }
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.001.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.001.A",
+      "dcterms:title": "LM.TB.FXNREQ.001.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.002.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.002.A",
+      "dcterms:title": "LM.TB.FXNREQ.002.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.003.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.003.A",
+      "dcterms:title": "LM.TB.FXNREQ.003.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.004.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.004.A",
+      "dcterms:title": "LM.TB.FXNREQ.004.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.005.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.005.A",
+      "dcterms:title": "LM.TB.FXNREQ.005.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.006.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.006.A",
+      "dcterms:title": "LM.TB.FXNREQ.006.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.007.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.007.A",
+      "dcterms:title": "LM.TB.FXNREQ.007.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.008.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.008.A",
+      "dcterms:title": "LM.TB.FXNREQ.008.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.009.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.009.A",
+      "dcterms:title": "LM.TB.FXNREQ.009.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.010.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.010.A",
+      "dcterms:title": "LM.TB.FXNREQ.010.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.011.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.011.A",
+      "dcterms:title": "LM.TB.FXNREQ.011.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.012.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.012.A",
+      "dcterms:title": "LM.TB.FXNREQ.012.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.013.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.013.A",
+      "dcterms:title": "LM.TB.FXNREQ.013.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.014.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.014.A",
+      "dcterms:title": "LM.TB.FXNREQ.014.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.015.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.015.A",
+      "dcterms:title": "LM.TB.FXNREQ.015.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.016.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.016.A",
+      "dcterms:title": "LM.TB.FXNREQ.016.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.017.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.017.A",
+      "dcterms:title": "LM.TB.FXNREQ.017.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.018.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.018.A",
+      "dcterms:title": "LM.TB.FXNREQ.018.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.019.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.019.A",
+      "dcterms:title": "LM.TB.FXNREQ.019.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.020.A.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.020.A",
+      "dcterms:title": "LM.TB.FXNREQ.020.A",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.021.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.021.B",
+      "dcterms:title": "LM.TB.FXNREQ.021.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.022.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.022.B",
+      "dcterms:title": "LM.TB.FXNREQ.022.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.023.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.023.B",
+      "dcterms:title": "LM.TB.FXNREQ.023.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.024.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.024.B",
+      "dcterms:title": "LM.TB.FXNREQ.024.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.025.B.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.025.B",
+      "dcterms:title": "LM.TB.FXNREQ.025.B",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.026.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.026.C",
+      "dcterms:title": "LM.TB.FXNREQ.026.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.027.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.027.C",
+      "dcterms:title": "LM.TB.FXNREQ.027.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.028.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.028.C",
+      "dcterms:title": "LM.TB.FXNREQ.028.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.029.C.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.029.C",
+      "dcterms:title": "LM.TB.FXNREQ.029.C",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.030.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.030.D",
+      "dcterms:title": "LM.TB.FXNREQ.030.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.031.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.031.D",
+      "dcterms:title": "LM.TB.FXNREQ.031.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.032.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.032.D",
+      "dcterms:title": "LM.TB.FXNREQ.032.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.033.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.033.D",
+      "dcterms:title": "LM.TB.FXNREQ.033.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.034.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.034.D",
+      "dcterms:title": "LM.TB.FXNREQ.034.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.035.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.035.D",
+      "dcterms:title": "LM.TB.FXNREQ.035.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.036.D.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.036.D",
+      "dcterms:title": "LM.TB.FXNREQ.036.D",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.037.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.037.E",
+      "dcterms:title": "LM.TB.FXNREQ.037.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.038.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.038.E",
+      "dcterms:title": "LM.TB.FXNREQ.038.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.039.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.039.E",
+      "dcterms:title": "LM.TB.FXNREQ.039.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.040.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.040.E",
+      "dcterms:title": "LM.TB.FXNREQ.040.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.041.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.041.E",
+      "dcterms:title": "LM.TB.FXNREQ.041.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.042.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.042.E",
+      "dcterms:title": "LM.TB.FXNREQ.042.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.043.E.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.043.E",
+      "dcterms:title": "LM.TB.FXNREQ.043.E",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.044.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.044.F",
+      "dcterms:title": "LM.TB.FXNREQ.044.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.045.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.045.F",
+      "dcterms:title": "LM.TB.FXNREQ.045.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.046.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.046.F",
+      "dcterms:title": "LM.TB.FXNREQ.046.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.047.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.047.F",
+      "dcterms:title": "LM.TB.FXNREQ.047.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.048.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.048.F",
+      "dcterms:title": "LM.TB.FXNREQ.048.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.049.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.049.F",
+      "dcterms:title": "LM.TB.FXNREQ.049.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.050.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.050.F",
+      "dcterms:title": "LM.TB.FXNREQ.050.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.051.F.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.051.F",
+      "dcterms:title": "LM.TB.FXNREQ.051.F",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.052.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.052.G",
+      "dcterms:title": "LM.TB.FXNREQ.052.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.FXNREQ.053.G.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.FXNREQ.053.G",
+      "dcterms:title": "LM.TB.FXNREQ.053.G",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.001.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.001",
+      "dcterms:title": "LM.TB.NFXNREQ.001",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.002.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.002",
+      "dcterms:title": "LM.TB.NFXNREQ.002",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.003.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.003",
+      "dcterms:title": "LM.TB.NFXNREQ.003",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.004.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.004",
+      "dcterms:title": "LM.TB.NFXNREQ.004",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.005.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.005",
+      "dcterms:title": "LM.TB.NFXNREQ.005",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.006.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.006",
+      "dcterms:title": "LM.TB.NFXNREQ.006",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.007.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.007",
+      "dcterms:title": "LM.TB.NFXNREQ.007",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.008.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.008",
+      "dcterms:title": "LM.TB.NFXNREQ.008",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.009.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.009",
+      "dcterms:title": "LM.TB.NFXNREQ.009",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.010.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.010",
+      "dcterms:title": "LM.TB.NFXNREQ.010",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.011.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.011",
+      "dcterms:title": "LM.TB.NFXNREQ.011",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.012.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.012",
+      "dcterms:title": "LM.TB.NFXNREQ.012",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.013.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.013",
+      "dcterms:title": "LM.TB.NFXNREQ.013",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.014.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.014",
+      "dcterms:title": "LM.TB.NFXNREQ.014",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.015.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.015",
+      "dcterms:title": "LM.TB.NFXNREQ.015",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.016.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.016",
+      "dcterms:title": "LM.TB.NFXNREQ.016",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.017.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.017",
+      "dcterms:title": "LM.TB.NFXNREQ.017",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.018.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.018",
+      "dcterms:title": "LM.TB.NFXNREQ.018",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.019.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.019",
+      "dcterms:title": "LM.TB.NFXNREQ.019",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.020.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.020",
+      "dcterms:title": "LM.TB.NFXNREQ.020",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.021.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.021",
+      "dcterms:title": "LM.TB.NFXNREQ.021",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.022.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.022",
+      "dcterms:title": "LM.TB.NFXNREQ.022",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.023.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.023",
+      "dcterms:title": "LM.TB.NFXNREQ.023",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.024.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.024",
+      "dcterms:title": "LM.TB.NFXNREQ.024",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.025.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.025",
+      "dcterms:title": "LM.TB.NFXNREQ.025",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.026.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.026",
+      "dcterms:title": "LM.TB.NFXNREQ.026",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.027.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.027",
+      "dcterms:title": "LM.TB.NFXNREQ.027",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.028.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.028",
+      "dcterms:title": "LM.TB.NFXNREQ.028",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.029.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.029",
+      "dcterms:title": "LM.TB.NFXNREQ.029",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.030.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.030",
+      "dcterms:title": "LM.TB.NFXNREQ.030",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.031.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.031",
+      "dcterms:title": "LM.TB.NFXNREQ.031",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.032.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.032",
+      "dcterms:title": "LM.TB.NFXNREQ.032",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.033.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.033",
+      "dcterms:title": "LM.TB.NFXNREQ.033",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.034.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.034",
+      "dcterms:title": "LM.TB.NFXNREQ.034",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.035.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.035",
+      "dcterms:title": "LM.TB.NFXNREQ.035",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.036.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.036",
+      "dcterms:title": "LM.TB.NFXNREQ.036",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.037.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.037",
+      "dcterms:title": "LM.TB.NFXNREQ.037",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.038.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.038",
+      "dcterms:title": "LM.TB.NFXNREQ.038",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.039.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.039",
+      "dcterms:title": "LM.TB.NFXNREQ.039",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.040.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.040",
+      "dcterms:title": "LM.TB.NFXNREQ.040",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.041.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.041",
+      "dcterms:title": "LM.TB.NFXNREQ.041",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.042.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.042",
+      "dcterms:title": "LM.TB.NFXNREQ.042",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.043.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.043",
+      "dcterms:title": "LM.TB.NFXNREQ.043",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.044.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.044",
+      "dcterms:title": "LM.TB.NFXNREQ.044",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.045.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.045",
+      "dcterms:title": "LM.TB.NFXNREQ.045",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.046.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.046",
+      "dcterms:title": "LM.TB.NFXNREQ.046",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.047.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.047",
+      "dcterms:title": "LM.TB.NFXNREQ.047",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.048.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.048",
+      "dcterms:title": "LM.TB.NFXNREQ.048",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.049.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.049",
+      "dcterms:title": "LM.TB.NFXNREQ.049",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.050.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.050",
+      "dcterms:title": "LM.TB.NFXNREQ.050",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.051.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.051",
+      "dcterms:title": "LM.TB.NFXNREQ.051",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.052.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.052",
+      "dcterms:title": "LM.TB.NFXNREQ.052",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.053.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.053",
+      "dcterms:title": "LM.TB.NFXNREQ.053",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.054.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.054",
+      "dcterms:title": "LM.TB.NFXNREQ.054",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.055.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.055",
+      "dcterms:title": "LM.TB.NFXNREQ.055",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.056.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.056",
+      "dcterms:title": "LM.TB.NFXNREQ.056",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.057.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.057",
+      "dcterms:title": "LM.TB.NFXNREQ.057",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.058.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.058",
+      "dcterms:title": "LM.TB.NFXNREQ.058",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.059.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.059",
+      "dcterms:title": "LM.TB.NFXNREQ.059",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.060.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.060",
+      "dcterms:title": "LM.TB.NFXNREQ.060",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.061.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.061",
+      "dcterms:title": "LM.TB.NFXNREQ.061",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.062.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.062",
+      "dcterms:title": "LM.TB.NFXNREQ.062",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.063.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.063",
+      "dcterms:title": "LM.TB.NFXNREQ.063",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.064.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.064",
+      "dcterms:title": "LM.TB.NFXNREQ.064",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.065.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.065",
+      "dcterms:title": "LM.TB.NFXNREQ.065",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.066.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.066",
+      "dcterms:title": "LM.TB.NFXNREQ.066",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.067.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.067",
+      "dcterms:title": "LM.TB.NFXNREQ.067",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.068.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.068",
+      "dcterms:title": "LM.TB.NFXNREQ.068",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.069.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.069",
+      "dcterms:title": "LM.TB.NFXNREQ.069",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "Binary-LM.TB.NFXNREQ.070.jsonld",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/LM.TB.NFXNREQ.070",
+      "dcterms:title": "LM.TB.NFXNREQ.070",
+      "dcterms:type": "Other"
+    },
+    {
+      "@id": "CodeSystem-FXREQBusinessProcesses.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/FXREQBusinessProcesses",
+      "dcterms:title": "Functional Requirements Business Processes",
+      "dcterms:description": "CodeSystem for Functional Requirements Business Processes. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+      }
+    },
+    {
+      "@id": "CodeSystem-FXREQCategories.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/FXREQCategories",
+      "dcterms:title": "Functional Requirement Categories",
+      "dcterms:description": "CodeSystem for Functional Requirement Categories. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.001.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.001.A",
+      "dcterms:title": " Search for the client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Search for the client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To search to see whether client is already in the system (using at least two identifiers)\n\nso that\n\n>I can check whether this is a new or existing client",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.001.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.002.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.002.A",
+      "dcterms:title": " Search for the client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Search for the client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>The system to be able to work offline \n\nso that\n\n>I can carry on the TB care service provision regardless of an Internet connection. Once the system goes back online, the data are synchronized with the central system",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.002.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.003.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.003.A",
+      "dcterms:title": " Search for the client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Search for the client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>The system to display sufficient data to identify the client\n\nso that\n\n>I can confirm that it is the correct client",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.003.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.004.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.004.A",
+      "dcterms:title": " Search for the client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Search for the client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>The system to require me (a user) to search to see whether a client is already in the system before starting a new medical record entry\n\nso that\n\n>I can avoid duplicates and update information as necessary",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.004.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.005.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.005.A",
+      "dcterms:title": " Search for the client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Search for the client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To use the client identification system (e.g. quick response [QR] code, barcode, fingerprint) and pull up client information\n\nso that\n\n>I can confirm that it is the correct client and update the information as necessary",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.005.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.006.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.006.A",
+      "dcterms:title": " Search for the client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Search for the client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To provide sufficient data to rule out the possibility that this client is already in the system\n\nso that\n\n>I can avoid duplicates ",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.006.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.007.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.007.A",
+      "dcterms:title": " Create a new client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Create a new client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To be able to enter identification information\n\nso that\n\n>I can enter new client information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.007.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.008.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.008.A",
+      "dcterms:title": " Create a new client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Create a new client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>The system to indicate mandatory fields that must be filled out for the registration to be valid\n\nso that\n\n>I can ensure all necessary information has been completed",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.008.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.009.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.009.A",
+      "dcterms:title": " Create a new client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Create a new client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To generate a facility medical record number \n\nso that\n\n>I can check and confirm the information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.009.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.010.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.010.A",
+      "dcterms:title": " Create a new client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Create a new client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To edit fields on screen before information is committed\n\nso that\n\n>I can ensure information has been checked before submission",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.010.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.011.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.011.A",
+      "dcterms:title": " Create a new client record",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Create a new client record:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To enter a temporary identification in situations when full identity is unknown\n\nso that\n\n>I can proceed with registration and update the information later on, once identity information is provided",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.011.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.012.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.012.A",
+      "dcterms:title": " Validate the client details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Validate the client details:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To display client information for validation (and be able to edit it)\n\nso that\n\n>I can ensure information has been checked before submission",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.012.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.013.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.013.A",
+      "dcterms:title": " Validate the client details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Validate the client details:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To be able to update demographic information\n\nso that\n\n>The most current information about the client can be recorded",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.013.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.014.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.014.A",
+      "dcterms:title": " Validate the client details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Validate the client details:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>The system to retain previous history of updated information\n\nso that\n\n>I can review past information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.014.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.015.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.015.A",
+      "dcterms:title": " Validate the client details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Validate the client details:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To be able to attach an identifier (e.g. QR code, barcode, fingerprint, photo) to the client's record based on national standard-based consent\n\nso that\n\n>I have additional ways of identifying client",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.015.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.016.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.016.A",
+      "dcterms:title": " Validate the client details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Validate the client details:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>To be able to confirm the client's identity\n\nso that\n\n>I can be sure it is the right person",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.016.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.017.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.017.A",
+      "dcterms:title": " Validate the client details",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Validate the client details:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>If this is a returning contact, to add the information to their previous contact\n\nso that\n\n>I can link the information across different contacts",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.017.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.018.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.018.A",
+      "dcterms:title": " Check in the client",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Check in the client:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>The system to record a time-and-date-stamped new contact (encounter)\n\nso that\n\n>I can confirm when the client came",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.018.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.019.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.019.A",
+      "dcterms:title": " Check in the client",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Check in the client:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>Provide a list of scheduled contacts to allow clients that are on TB preventive treatment or TB treatment who are lost to follow-up to be traced\n\nso that\n\n>I can track and follow up clients requiring TB care services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.019.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.020.A.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.020.A",
+      "dcterms:title": " Check in the client",
+      "dcterms:description": "*Business process* (A) Registration:\nActivity:  Check in the client:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.html\">Health worker or data entry clerk or medical office receptionist</a>, I want to:\n>Provide a list or roster of all clients due to arrive\n\nso that\n\n>I know which clients to follow up or are due for services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.020.A"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.021.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.021.B",
+      "dcterms:title": " Provide pre-screening information and ask for consent",
+      "dcterms:description": "*Business process* (B) Screening:\nActivity:  Provide pre-screening information and ask for consent:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have available general pre-screening information about potential risks and benefits, screening tools and procedure to share with clients during counselling activities\n\nso that\n\n>I can better answer the client’s questions and better prepare them for screening activities",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.021.B"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.022.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.022.B",
+      "dcterms:title": " Provide pre-screening information and ask for consent",
+      "dcterms:description": "*Business process* (B) Screening:\nActivity:  Provide pre-screening information and ask for consent:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to prompt the health worker to get informed consent from the client before proceeding with screening\n\nso that\n\n>I can ensure that ethical principles for screening for infectious diseases are followed and that the clients’ rights are protected",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.022.B"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.023.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.023.B",
+      "dcterms:title": " Assess medical history and risk factors",
+      "dcterms:description": "*Business process* (B) Screening:\nActivity:  Assess medical history and risk factors:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to capture or update client information related to medical history and risk factors for TB\n\nso that\n\n>I make sure that new relevant information is not missed",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.023.B"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.024.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.024.B",
+      "dcterms:title": " Determine the screening algorithm",
+      "dcterms:description": "*Business process* (B) Screening:\nActivity:  Determine the screening algorithm:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have available general information about screening algorithms \n\nso that\n\n>I have a quick reference to help me choose the most appropriate screening algorithm for a client or group of clients",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.024.B"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.025.B.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.025.B",
+      "dcterms:title": " Perform the TB screening",
+      "dcterms:description": "*Business process* (B) Screening:\nActivity:  Perform the TB screening:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to send referral letters via appropriate digital tools (e.g. email, digital health portal)\n\nso that\n\n>I can speed up the referral process and check-in at the accommodating health-care facility",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.025.B"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.026.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.026.C",
+      "dcterms:title": " Carry out clinical examination",
+      "dcterms:description": "*Business process* (C) Diagnosis:\nActivity:  Carry out clinical examination:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to use the data entered for a client to generate statistics, graphs, pop-ups (on demand or ad hoc)\n\nso that\n\n>I can take better clinical decisions",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.026.C"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.027.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.027.C",
+      "dcterms:title": " Assess medical history and risk factors",
+      "dcterms:description": "*Business process* (C) Diagnosis:\nActivity:  Assess medical history and risk factors:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to route the consultation via different health workers and save in the system the information already entered to the consultation even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add or edit information as it becomes available\n\nso that\n\n>I do not have to start a new consultation for every health worker that the client is involved with",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.027.C"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.028.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.028.C",
+      "dcterms:title": "C4 Assess history of prior TB treatment",
+      "dcterms:description": "*Business process* (C) Diagnosis:\nActivity: C4 Assess history of prior TB treatment:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to check client's medical history \n\nso that\n\n>I can use this information for investigations or treatment recommendations",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.028.C"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.029.C.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.029.C",
+      "dcterms:title": " Interpret the follow-on test(s) results",
+      "dcterms:description": "*Business process* (C) Diagnosis:\nActivity:  Interpret the follow-on test(s) results:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to be capable to receive diagnosis test results from laboratories or other test centres \n\nso that\n\n>I can take the appropriate actions more quickly",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.029.C"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.030.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.030.D",
+      "dcterms:title": " Determine the regimen designed to treat rifampicin-resistant TB",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Determine the regimen designed to treat rifampicin-resistant TB:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to propose TB treatment regimens based on predefined criteria and on the information available in the system\n\nso that\n\n>It helps me selecting the appropriate treatment regimen for the client",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.030.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.031.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.031.D",
+      "dcterms:title": " Determine the regimen designed to treat rifampicin-resistant TB",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Determine the regimen designed to treat rifampicin-resistant TB:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be alerted if a client is allergic to TB-related medications (specify the drugs)\n\nso that\n\n>I immediately know that I cannot prescribe these drugs and client safety is better protected",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.031.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.032.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.032.D",
+      "dcterms:title": " Initiate the treatment and discuss adherence",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Initiate the treatment and discuss adherence:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to automatically calculate the expected TB treatment completion date\n\nso that\n\n>I do not have to calculate this myself",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.032.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.033.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.033.D",
+      "dcterms:title": " Develop monitoring examinations and a schedule of follow-up visits",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Develop monitoring examinations and a schedule of follow-up visits:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have the system automatically calculate a date when the client should return for care, based on treatment regimen, clinical condition and monitoring examinations\n\nso that\n\n>I do not have to calculate this myself",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.033.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.034.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.034.D",
+      "dcterms:title": " Perform the clinical assessment",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Perform the clinical assessment:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to trigger an alert when a client did not show-up on the intended follow-up day, according to the follow-up schedule\n\nso that\n\n>I could follow up the client in a timely manner to prevent them from being lost to follow-up",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.034.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.035.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.035.D",
+      "dcterms:title": " Manage TB treatment interruptions",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Manage TB treatment interruptions:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to be able to exchange information with digital adherence technologies to automatically record and calculate information related to treatment progress or interruptions\n\nso that\n\n>I do not have to calculate this myself and fill in the information manually",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.035.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.036.D.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.036.D",
+      "dcterms:title": " Report the outcome(s)",
+      "dcterms:description": "*Business process* (D) TB Treatment:\nActivity:  Report the outcome(s):\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>The system to trigger an alert to assign treatment outcome in case the expected TB treatment completion date is reached and there is no treatment outcome assigned\n\nso that\n\n>Alignment between the number of cases notified and number of treatment outcome cohort (all notified cases have assigned treatment outcomes) is ensured",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.036.D"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.037.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.037.E",
+      "dcterms:title": " Offer TB prevention counselling",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Offer TB prevention counselling:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be prompted to provide counselling on TPT\n\nso that\n\n>I can ensure that the client is educated on TPT before offering any TPT-related service",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.037.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.038.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.038.E",
+      "dcterms:title": " Make an informed decision",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Make an informed decision:\nAs a <a href=\"ActorDefinition-healthinformationofficer.html\">Health information officer</a>, I want to:\n>The system to prompt the health worker to get informed consent from the client before proceeding with the TPT evaluation\n\nso that\n\n>I can ensure that client rights are protected",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.038.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.039.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.039.E",
+      "dcterms:title": " Determine whether TB infection testing is relevant",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Determine whether TB infection testing is relevant:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have available general information about TB infection testing\n\nso that\n\n>I will not have to look elsewhere to find information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.039.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.040.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.040.E",
+      "dcterms:title": " Determine TPT eligibility",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Determine TPT eligibility:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have questions that guide me in TPT eligibility assessment\n\nso that\n\n>I can better evaluate client TPT eligibility",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.040.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.041.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.041.E",
+      "dcterms:title": " Determine TPT eligibility",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Determine TPT eligibility:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to use my clinical judgement when deciding if a client is eligible or not for TPT and enter the decision in the system\n\nso that\n\n>I do not prevent clients from taking TPT when they are eligible with clinical judgement (e.g. when the benefits of TPT outweighs the risks)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.041.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.042.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.042.E",
+      "dcterms:title": " Initiate TPT and develop an adherence plan",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Initiate TPT and develop an adherence plan:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have available general information about TPT adherence\n\nso that\n\n>I can better prepare the TPT adherence plan",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.042.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.043.E.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.043.E",
+      "dcterms:title": " Schedule the follow-up visit",
+      "dcterms:description": "*Business process* (E) TB preventive treatment (TPT):\nActivity:  Schedule the follow-up visit:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to indicate if the client agrees to receive notifications and their preferred communication channel (including sending reminders for the next follow-up visit)\n\nso that\n\n>I can send communications via the client's preferred communication channel",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.043.E"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.044.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.044.F",
+      "dcterms:title": " Stabilize the client and give pre-referral treatment",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Stabilize the client and give pre-referral treatment:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to bypass the standard flow at any point if danger signs are present or emergency care is needed; urgent cases should be flagged and seen promptly\n\nso that\n\n>The client can be referred, if needed",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.044.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.045.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.045.F",
+      "dcterms:title": " Identify and discuss referral location options",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Identify and discuss referral location options:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to find out in the system where the required service may be available \n\nso that\n\n>I can refer my client to another facility to receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.045.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.046.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.046.F",
+      "dcterms:title": " Contact referral facility",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Contact referral facility:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able to send a referral request to a health centre\n\nso that\n\n>I can refer my client for them to receive the appropriate services",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.046.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.047.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.047.F",
+      "dcterms:title": " Contact referral facility",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Contact referral facility:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To have a list of the contact information for referral facilities\n\nso that\n\n>I can easily contact the facility when making the referral arrangements",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.047.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.048.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.048.F",
+      "dcterms:title": " Provide information to the receiving facility",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Provide information to the receiving facility:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To indicate in the system the referral reason\n\nso that\n\n>I can identify ways to improve the TB care process at my health-care facility",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.048.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.049.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.049.F",
+      "dcterms:title": " Provide information to the receiving facility",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Provide information to the receiving facility:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To share the client’s health records with the referral facility \n\nso that\n\n>They can provide the care my client needs",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.049.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.050.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.050.F",
+      "dcterms:title": "  Check whether the client can be accommodated",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:   Check whether the client can be accommodated:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To be able the check if the supplies and skills needed to accommodate a referred client are available at my facility\n\nso that\n\n>I can validate to the referring facility (or directly to the client) where the client can be accommodated",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.050.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.051.F.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.051.F",
+      "dcterms:title": " Receive the client",
+      "dcterms:description": "*Business process* (F) Referral:\nActivity:  Receive the client:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To know what care the client received at the referral facility \n\nso that\n\n>I can provide appropriate care if my client comes back to my facility",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.051.F"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.052.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.052.G",
+      "dcterms:title": " Generate aggregate reports",
+      "dcterms:description": "*Business process* (G) Aggregate reporting and data use:\nActivity:  Generate aggregate reports:\nAs a <a href=\"ActorDefinition-healthworkerordataentryclerk.html\">Health worker or data entry clerk</a>, I want to:\n>To produce a range of prepared reports\n\nso that\n\n>I do not need to create the reports manually for reporting purposes",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.052.G"
+      }
+    },
+    {
+      "@id": "Requirements-TB.FXNREQ.053.G.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.FXNREQ.053.G",
+      "dcterms:title": " Analyse and interpret the reports",
+      "dcterms:description": "*Business process* (G) Aggregate reporting and data use:\nActivity:  Analyse and interpret the reports:\nAs a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">Health worker (e.g. nurse)</a>, I want to:\n>To view a range of standardized visualizations (e.g. charts, tables, maps)\n\nso that\n\n>I am able to use data collected at the facility for service delivery and informing programmatic actions with the aim of improving the quality of care for clients with TB",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.053.G"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.001.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.001",
+      "dcterms:title": "Provide password-protected access for authorized users",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide password-protected access for authorized users",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.001"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.002.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.002",
+      "dcterms:title": "Provide a means to ensure confidentiality and privacy of personal health information",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide a means to ensure confidentiality and privacy of personal health information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.002"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.003.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.003",
+      "dcterms:title": "Provide the ability for allowed users to view confidential data",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide the ability for allowed users to view confidential data",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.003"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.004.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.004",
+      "dcterms:title": "Anonymize data that are exported from the system",
+      "dcterms:description": "*Category*: Security – confidentiality\nAnonymize data that are exported from the system",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.004"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.005.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.005",
+      "dcterms:title": "Prevent remembering username and password",
+      "dcterms:description": "*Category*: Security – confidentiality\nPrevent remembering username and password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.005"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.006.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.006",
+      "dcterms:title": "Automatically log out the user after a specified time of inactivity",
+      "dcterms:description": "*Category*: Security – confidentiality\nAutomatically log out the user after a specified time of inactivity",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.006"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.007.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.007",
+      "dcterms:title": "Provide encrypted communication between components",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide encrypted communication between components",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.007"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.008.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.008",
+      "dcterms:title": "Provide secure data transmission methods to prevent others from seeing data sent from \none computer to another by using data encryption and private networks across public networks",
+      "dcterms:description": "*Category*: Security – confidentiality\nProvide secure data transmission methods to prevent others from seeing data sent from \none computer to another by using data encryption and private networks across public networks",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.008"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.009.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.009",
+      "dcterms:title": "Notify the user to change their password the first time they log in",
+      "dcterms:description": "*Category*: Security – authentication\nNotify the user to change their password the first time they log in",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.009"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.010.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.010",
+      "dcterms:title": "Adhere to complex password requirements",
+      "dcterms:description": "*Category*: Security – authentication\nAdhere to complex password requirements",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.010"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.011.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.011",
+      "dcterms:title": "Provide a mechanism to securely change a user's password",
+      "dcterms:description": "*Category*: Security – authentication\nProvide a mechanism to securely change a user's password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.011"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.012.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.012",
+      "dcterms:title": "Notify the user of a password change to their account",
+      "dcterms:description": "*Category*: Security – authentication\nNotify the user of a password change to their account",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.012"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.013.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.013",
+      "dcterms:title": "Reset a user's password in a secure manner",
+      "dcterms:description": "*Category*: Security – authentication\nReset a user's password in a secure manner",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.013"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.014.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.014",
+      "dcterms:title": "Lock a user out after a specified number of wrong password attempts",
+      "dcterms:description": "*Category*: Security – authentication\nLock a user out after a specified number of wrong password attempts",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.014"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.015.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.015",
+      "dcterms:title": "Notify a user if their account is locked due to wrong password attempts",
+      "dcterms:description": "*Category*: Security – authentication\nNotify a user if their account is locked due to wrong password attempts",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.015"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.016.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.016",
+      "dcterms:title": "Provide role-based access to the system: users of the system get access on a need-to-know and need-to-use basis",
+      "dcterms:description": "*Category*: Security – authentication\nProvide role-based access to the system: users of the system get access on a need-to-know and need-to-use basis",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.016"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.017.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.017",
+      "dcterms:title": "Log system logins and logouts",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog system logins and logouts",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.017"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.018.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.018",
+      "dcterms:title": "Record all authentication violations",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nRecord all authentication violations",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.018"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.019.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.019",
+      "dcterms:title": "Log all activities performed by the user, including date and time stamp",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog all activities performed by the user, including date and time stamp",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.019"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.020.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.020",
+      "dcterms:title": "Log access to views of individual client records",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog access to views of individual client records",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.020"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.021.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.021",
+      "dcterms:title": "Log access to data summaries, reports, analysis and visualization features",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog access to data summaries, reports, analysis and visualization features",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.021"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.022.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.022",
+      "dcterms:title": "Log exchange of data with other systems",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog exchange of data with other systems",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.022"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.023.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.023",
+      "dcterms:title": "Generate analysis of the use of different system features and reports",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nGenerate analysis of the use of different system features and reports",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.023"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.024.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.024",
+      "dcterms:title": "Log all data and system errors",
+      "dcterms:description": "*Category*: Security – audit trail and logs\nLog all data and system errors",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.024"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.025.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.025",
+      "dcterms:title": "Allow user with permission to create a new user and temporary password",
+      "dcterms:description": "*Category*: Security – user management\nAllow user with permission to create a new user and temporary password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.025"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.026.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.026",
+      "dcterms:title": "Provide role-based access",
+      "dcterms:description": "*Category*: Security – user management\nProvide role-based access",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.026"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.027.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.027",
+      "dcterms:title": "Allow roles to be associated with specific geographical areas or health-care facilities",
+      "dcterms:description": "*Category*: Security – user management\nAllow roles to be associated with specific geographical areas or health-care facilities",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.027"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.028.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.028",
+      "dcterms:title": "Allow cascading user management and assignment of roles",
+      "dcterms:description": "*Category*: Security – user management\nAllow cascading user management and assignment of roles",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.028"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.029.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.029",
+      "dcterms:title": "Allow user to change their own password",
+      "dcterms:description": "*Category*: Security – user management\nAllow user to change their own password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.029"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.030.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.030",
+      "dcterms:title": "Allow admin user to request password reset",
+      "dcterms:description": "*Category*: Security – user management\nAllow admin user to request password reset",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.030"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.031.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.031",
+      "dcterms:title": "Notify the user to regularly change their password",
+      "dcterms:description": "*Category*: Security – user management\nNotify the user to regularly change their password",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.031"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.032.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.032",
+      "dcterms:title": "Allow each user to be assigned to one or more roles",
+      "dcterms:description": "*Category*: Security – user management\nAllow each user to be assigned to one or more roles",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.032"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.033.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.033",
+      "dcterms:title": "Support definitions of unlimited roles and assigned levels of access, viewing, entry, editing and auditing",
+      "dcterms:description": "*Category*: Security – user management\nSupport definitions of unlimited roles and assigned levels of access, viewing, entry, editing and auditing",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.033"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.034.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.034",
+      "dcterms:title": "Provide a unique version number for each revision",
+      "dcterms:description": "*Category*: System requirements – general\nProvide a unique version number for each revision",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.034"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.035.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.035",
+      "dcterms:title": "Enable earlier versions of a record to be recoverable",
+      "dcterms:description": "*Category*: System requirements – general\nEnable earlier versions of a record to be recoverable",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.035"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.036.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.036",
+      "dcterms:title": "Enable deployment in an environment subject to power loss",
+      "dcterms:description": "*Category*: System requirements – general\nEnable deployment in an environment subject to power loss",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.036"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.037.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.037",
+      "dcterms:title": "Work in an environment that is subject to loss of connectivity",
+      "dcterms:description": "*Category*: System requirements – general\nWork in an environment that is subject to loss of connectivity",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.037"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.038.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.038",
+      "dcterms:title": "Generate IDs that are unique across different installations or sites",
+      "dcterms:description": "*Category*: System requirements – general\nGenerate IDs that are unique across different installations or sites",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.038"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.039.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.039",
+      "dcterms:title": "Report version number when saving data to the database",
+      "dcterms:description": "*Category*: System requirements – general\nReport version number when saving data to the database",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.039"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.040.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.040",
+      "dcterms:title": "Be designed to be flexible enough to accommodate necessary changes in the future",
+      "dcterms:description": "*Category*: System requirements – general\nBe designed to be flexible enough to accommodate necessary changes in the future",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.040"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.041.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.041",
+      "dcterms:title": "Allow for offline and online functionality",
+      "dcterms:description": "*Category*: System requirements – general\nAllow for offline and online functionality",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.041"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.042.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.042",
+      "dcterms:title": "Show the number of records that are not yet synchronized",
+      "dcterms:description": "*Category*: System requirements – general\nShow the number of records that are not yet synchronized",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.042"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.043.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.043",
+      "dcterms:title": "Have the ability to easily back up information",
+      "dcterms:description": "*Category*: System requirements – general\nHave the ability to easily back up information",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.043"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.044.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.044",
+      "dcterms:title": "Warn user if no valid back-up for more than a predefined number of days",
+      "dcterms:description": "*Category*: System requirements – general\nWarn user if no valid back-up for more than a predefined number of days",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.044"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.045.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.045",
+      "dcterms:title": "Must have the ability to store images and other unstructured data",
+      "dcterms:description": "*Category*: System requirements – general\nMust have the ability to store images and other unstructured data",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.045"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.046.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.046",
+      "dcterms:title": "Scalable to accommodate new demands",
+      "dcterms:description": "*Category*: System requirements – scalability\nScalable to accommodate new demands",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.046"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.047.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.047",
+      "dcterms:title": "Be able to accommodate at least [x number of]a health-care facilities",
+      "dcterms:description": "*Category*: System requirements – scalability\nBe able to accommodate at least [x number of]a health-care facilities",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.047"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.048.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.048",
+      "dcterms:title": "Be able to accommodate at least [x number of]a concurrent users",
+      "dcterms:description": "*Category*: System requirements – scalability\nBe able to accommodate at least [x number of]a concurrent users",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.048"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.049.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.049",
+      "dcterms:title": "Be user-friendly for people with low computer literacy",
+      "dcterms:description": "*Category*: System requirements – usability\nBe user-friendly for people with low computer literacy",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.049"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.050.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.050",
+      "dcterms:title": "Provide informative error messages and tooltips",
+      "dcterms:description": "*Category*: System requirements – usability\nProvide informative error messages and tooltips",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.050"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.051.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.051",
+      "dcterms:title": "Alert the user when navigating away from a form without saving",
+      "dcterms:description": "*Category*: System requirements – usability\nAlert the user when navigating away from a form without saving",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.051"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.052.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.052",
+      "dcterms:title": "Support real-time data entry validation and feedback to prevent data entry errors from being recorded",
+      "dcterms:description": "*Category*: System requirements – usability\nSupport real-time data entry validation and feedback to prevent data entry errors from being recorded",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.052"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.053.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.053",
+      "dcterms:title": "Simplify data recording through predefined drop-down menus or searchable lists, radio buttons, check boxes",
+      "dcterms:description": "*Category*: System requirements – usability\nSimplify data recording through predefined drop-down menus or searchable lists, radio buttons, check boxes",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.053"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.054.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.054",
+      "dcterms:title": "Support multiple languages",
+      "dcterms:description": "*Category*: System requirements – usability\nSupport multiple languages",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.054"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.055.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.055",
+      "dcterms:title": "Use industry-standard user interface practices and apply them consistently throughout the system",
+      "dcterms:description": "*Category*: System requirements – usability\nUse industry-standard user interface practices and apply them consistently throughout the system",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.055"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.056.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.056",
+      "dcterms:title": "Easy to learn and intuitive to enable user to navigate between pages",
+      "dcterms:description": "*Category*: System requirements – usability\nEasy to learn and intuitive to enable user to navigate between pages",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.056"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.057.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.057",
+      "dcterms:title": "Provide guidance to users to better support clinical guidelines and best clinical practices",
+      "dcterms:description": "*Category*: System requirements – usability\nProvide guidance to users to better support clinical guidelines and best clinical practices",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.057"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.058.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.058",
+      "dcterms:title": "Be reliable and robust (minimize the number of system crashes)",
+      "dcterms:description": "*Category*: System requirements – usability\nBe reliable and robust (minimize the number of system crashes)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.058"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.059.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.059",
+      "dcterms:title": "Adjust display to fit small screens (e.g. mobile phones)",
+      "dcterms:description": "*Category*: System requirements – usability\nAdjust display to fit small screens (e.g. mobile phones)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.059"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.060.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.060",
+      "dcterms:title": "Configure the system centrally",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure the system centrally",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.060"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.061.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.061",
+      "dcterms:title": "Configure business rules in line with guidelines and standard operating procedures",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure business rules in line with guidelines and standard operating procedures",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.061"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.062.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.062",
+      "dcterms:title": "Configure error messages",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure error messages",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.062"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.063.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.063",
+      "dcterms:title": "Configure workflows and business rules to accommodate differences between facilities",
+      "dcterms:description": "*Category*: System requirements – configuration\nConfigure workflows and business rules to accommodate differences between facilities",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.063"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.064.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.064",
+      "dcterms:title": "Communicate with external systems through mediators",
+      "dcterms:description": "*Category*: System requirements – interoperability\nCommunicate with external systems through mediators",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.064"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.065.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.065",
+      "dcterms:title": "Provide access to data through application programming interfaces",
+      "dcterms:description": "*Category*: System requirements – interoperability\nProvide access to data through application programming interfaces",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.065"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.066.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.066",
+      "dcterms:title": "Be interoperable with external systems through mediators",
+      "dcterms:description": "*Category*: System requirements – interoperability\nBe interoperable with external systems through mediators",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.066"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.067.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.067",
+      "dcterms:title": "Link with insurance systems to verify eligibility and submit claims",
+      "dcterms:description": "*Category*: System requirements – interoperability\nLink with insurance systems to verify eligibility and submit claims",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.067"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.068.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.068",
+      "dcterms:title": "Exchange data with other approved systems",
+      "dcterms:description": "*Category*: System requirements – interoperability\nExchange data with other approved systems",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.068"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.069.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.069",
+      "dcterms:title": "Accept data from multiple input methods including paper and geocoding (GPS)",
+      "dcterms:description": "*Category*: System requirements – interoperability\nAccept data from multiple input methods including paper and geocoding (GPS)",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.069"
+      }
+    },
+    {
+      "@id": "Requirements-TB.NFXNREQ.070.jsonld",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/TB.NFXNREQ.070",
+      "dcterms:title": "Allow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow",
+      "dcterms:description": "*Category*: System requirements – hardware and connectivity\nAllow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.070"
+      }
+    },
+    {
+      "@id": "ValueSet-FXREQBusinessProcesses.jsonld",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/FXREQBusinessProcesses",
+      "dcterms:title": "Functional Requirements Business Processes",
+      "dcterms:description": "Value Set for Functional Requirements Business Processes. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ValueSet/FXREQBusinessProcesses"
+      }
+    },
+    {
+      "@id": "ValueSet-FXREQCategories.jsonld",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/FXREQCategories",
+      "dcterms:title": "Functional Requirement Categories",
+      "dcterms:description": "Value Set for Functional Requirement Categories. Autogenerated from DAK artifacts",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ValueSet/FXREQCategories"
+      }
+    },
+    {
+      "@id": "ImplementationGuide-smart.who.int.dak-tb.jsonld",
+      "@type": "fhir:ImplementationGuide",
+      "dcterms:identifier": "ImplementationGuide/smart.who.int.dak-tb",
+      "dcterms:title": "SMART DAK TB",
+      "dcterms:description": "TB DAK",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-tb/ImplementationGuide/smart.who.int.dak-tb"
+      }
+    }
+  ]
+}
