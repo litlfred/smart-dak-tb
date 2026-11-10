@@ -16,10 +16,18 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-tb/a38f925871e611f126345a51b6b5083d2fee940a/resources/Binary/LM.TB.NFXNREQ.032.json"
+        "@id": "../Binary-LM.TB.NFXNREQ.032.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-tb/a38f925871e611f126345a51b6b5083d2fee940a/resources/Binary/LM.TB.NFXNREQ.032.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {
