@@ -16,7 +16,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-tb/d9efcd57c846bf5233fa9971cd6b5f70e40e8c2b/resources/Binary/LM.TB.NFXNREQ.070--646463ec.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-tb/a38f925871e611f126345a51b6b5083d2fee940a/resources/Binary/LM.TB.NFXNREQ.070.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
@@ -25,7 +25,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "70d6e03251c0150cb53ede7f512972b4dc2a7219"
+    "prov:used": "5f22713d6f170ae9656ffdf8fa2313e9793a760f"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

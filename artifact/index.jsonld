@@ -2323,6 +2323,7 @@
       "@type": "fhir:ImplementationGuide",
       "dcterms:identifier": "ImplementationGuide/smart.who.int.dak-tb",
       "dcterms:title": "SMART DAK TB",
+      "schema:name": "DakTb",
       "dcterms:description": "TB DAK",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-tb/ImplementationGuide/smart.who.int.dak-tb"
