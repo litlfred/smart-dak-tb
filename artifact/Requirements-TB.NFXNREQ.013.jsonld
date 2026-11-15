@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.013.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.013",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.013",
   "schema:name": "Reset a user's password in a secure manner",

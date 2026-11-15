@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.jsonld",
+  "@id": "ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist",
   "@type": "fhir:ActorDefinition",
   "dcterms:identifier": "ActorDefinition/healthworkerordataentryclerkormedicalofficereceptionist",
   "schema:name": "Health worker or data entry clerk or medical office receptionist",

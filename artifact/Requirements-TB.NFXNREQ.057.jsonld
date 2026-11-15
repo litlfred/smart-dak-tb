@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.057.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.057",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.057",
   "schema:name": "Provide guidance to users to better support clinical guidelines and best clinical practices",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.051.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.051",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.051",
   "schema:name": "Alert the user when navigating away from a form without saving",

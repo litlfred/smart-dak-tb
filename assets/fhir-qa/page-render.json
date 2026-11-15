@@ -1,0 +1,750 @@
+{
+ "$schema": "fhir-harness/page-render-qa/v1",
+ "generatedAt": "2026-11-15T17:05:15.327Z",
+ "scanned": 304,
+ "unfinished": [],
+ "findings": [
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.001.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.002.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.003.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.004.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.005.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.006.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.007.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.008.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.009.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.010.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.011.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.012.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.013.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.014.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.015.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.016.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.017.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.018.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in the client: As a <a href=\"ActorDefinition-healthworkerordataentryc"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.019.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in the client: As a <a href=\"ActorDefinition-healthworkerordataentryc"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.020.A.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in the client: As a <a href=\"ActorDefinition-healthworkerordataentryc"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.021.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Provide pre-screening information and ask for consent: As a <a href=\"ActorDefi"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.022.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Provide pre-screening information and ask for consent: As a <a href=\"ActorDefi"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.023.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Assess medical history and risk factors: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.024.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Determine the screening algorithm: As a <a href=\"ActorDefinition-healthworkere"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.025.B.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Perform the TB screening: As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.026.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: Carry out clinical examination: As a <a href=\"ActorDefinition-healthworkere.g."
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.027.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: Assess medical history and risk factors: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.028.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: C4 Assess history of prior TB treatment: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.029.C.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: Interpret the follow-on test(s) results: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.030.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Determine the regimen designed to treat rifampicin-resistant TB: As a <a hr"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.031.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Determine the regimen designed to treat rifampicin-resistant TB: As a <a hr"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.032.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Initiate the treatment and discuss adherence: As a <a href=\"ActorDefinition"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.033.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Develop monitoring examinations and a schedule of follow-up visits: As a <a"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.034.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Perform the clinical assessment: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.035.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Manage TB treatment interruptions: As a <a href=\"ActorDefinition-healthwork"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.036.D.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Report the outcome(s): As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.037.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Offer TB prevention counselling: As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.038.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Make an informed decision: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.039.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Determine whether TB infection testing is relevant: As a <"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.040.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Determine TPT eligibility: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.041.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Determine TPT eligibility: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.042.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Initiate TPT and develop an adherence plan: As a <a href=\""
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.043.E.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Schedule the follow-up visit: As a <a href=\"ActorDefinitio"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.044.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Stabilize the client and give pre-referral treatment: As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.045.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.046.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Contact referral facility: As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.047.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Contact referral facility: As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.048.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Provide information to the receiving facility: As a <a href=\"ActorDefinition-he"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.049.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Provide information to the receiving facility: As a <a href=\"ActorDefinition-he"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.050.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Check whether the client can be accommodated: As a <a href=\"ActorDefinition-hea"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.051.F.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Receive the client: As a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">H"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.052.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Aggregate reporting and data use: Activity: Generate aggregate reports: As a <a href=\"ActorDefiniti"
+  },
+  {
+   "page": "artifact/Requirements-TB.FXNREQ.053.G.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Aggregate reporting and data use: Activity: Analyse and interpret the reports: As a <a href=\"ActorD"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Search for the client record: As a <a href=\"ActorDefinition-healthworkerord"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Create a new client record: As a <a href=\"ActorDefinition-healthworkerordat"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Validate the client details: As a <a href=\"ActorDefinition-healthworkerorda"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in the client: As a <a href=\"ActorDefinition-healthworkerordataentryc"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in the client: As a <a href=\"ActorDefinition-healthworkerordataentryc"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (A) Registration: Activity: Check in the client: As a <a href=\"ActorDefinition-healthworkerordataentryc"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Provide pre-screening information and ask for consent: As a <a href=\"ActorDefi"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Provide pre-screening information and ask for consent: As a <a href=\"ActorDefi"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Assess medical history and risk factors: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Determine the screening algorithm: As a <a href=\"ActorDefinition-healthworkere"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (B) Screening: Activity: Perform the TB screening: As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: Carry out clinical examination: As a <a href=\"ActorDefinition-healthworkere.g."
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: Assess medical history and risk factors: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: C4 Assess history of prior TB treatment: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (C) Diagnosis: Activity: Interpret the follow-on test(s) results: As a <a href=\"ActorDefinition-healthw"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Determine the regimen designed to treat rifampicin-resistant TB: As a <a hr"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Determine the regimen designed to treat rifampicin-resistant TB: As a <a hr"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Initiate the treatment and discuss adherence: As a <a href=\"ActorDefinition"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Develop monitoring examinations and a schedule of follow-up visits: As a <a"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Perform the clinical assessment: As a <a href=\"ActorDefinition-healthworker"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Manage TB treatment interruptions: As a <a href=\"ActorDefinition-healthwork"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (D) TB Treatment: Activity: Report the outcome(s): As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Offer TB prevention counselling: As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Make an informed decision: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Determine whether TB infection testing is relevant: As a <"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Determine TPT eligibility: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Determine TPT eligibility: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Initiate TPT and develop an adherence plan: As a <a href=\""
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (E) TB preventive treatment (TPT): Activity: Schedule the follow-up visit: As a <a href=\"ActorDefinitio"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Stabilize the client and give pre-referral treatment: As a <a href=\"ActorDefini"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Identify and discuss referral location options: As a <a href=\"ActorDefinition-h"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Contact referral facility: As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Contact referral facility: As a <a href=\"ActorDefinition-healthworkere.g.nurse."
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Provide information to the receiving facility: As a <a href=\"ActorDefinition-he"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Provide information to the receiving facility: As a <a href=\"ActorDefinition-he"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Check whether the client can be accommodated: As a <a href=\"ActorDefinition-hea"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (F) Referral: Activity: Receive the client: As a <a href=\"ActorDefinition-healthworkere.g.nurse.html\">H"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Aggregate reporting and data use: Activity: Generate aggregate reports: As a <a href=\"ActorDefiniti"
+  },
+  {
+   "page": "artifacts.html",
+   "markup": [
+    "HTML tag"
+   ],
+   "excerpt": "Business process (G) Aggregate reporting and data use: Activity: Analyse and interpret the reports: As a <a href=\"ActorD"
+  }
+ ]
+}

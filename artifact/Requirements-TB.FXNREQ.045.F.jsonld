@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.FXNREQ.045.F.jsonld",
+  "@id": "Requirements-TB.FXNREQ.045.F",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.FXNREQ.045.F",
   "schema:name": " Identify and discuss referral location options",

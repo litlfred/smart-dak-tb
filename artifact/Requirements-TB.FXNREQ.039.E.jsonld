@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.FXNREQ.039.E.jsonld",
+  "@id": "Requirements-TB.FXNREQ.039.E",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.FXNREQ.039.E",
   "schema:name": " Determine whether TB infection testing is relevant",

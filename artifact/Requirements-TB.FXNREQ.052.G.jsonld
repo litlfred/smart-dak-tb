@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.FXNREQ.052.G.jsonld",
+  "@id": "Requirements-TB.FXNREQ.052.G",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.FXNREQ.052.G",
   "schema:name": " Generate aggregate reports",

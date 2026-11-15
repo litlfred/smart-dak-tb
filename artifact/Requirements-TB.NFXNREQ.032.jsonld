@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.032.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.032",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.032",
   "schema:name": "Allow each user to be assigned to one or more roles",

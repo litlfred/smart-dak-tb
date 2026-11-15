@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.016.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.016",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.016",
   "schema:name": "Provide role-based access to the system: users of the system get access on a need-to-know and need-to-use basis",

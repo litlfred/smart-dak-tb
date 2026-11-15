@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.069.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.069",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.069",
   "schema:name": "Accept data from multiple input methods including paper and geocoding (GPS)",

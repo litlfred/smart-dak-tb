@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.049.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.049",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.049",
   "schema:name": "Be user-friendly for people with low computer literacy",

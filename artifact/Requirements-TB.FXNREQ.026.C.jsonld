@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.FXNREQ.026.C.jsonld",
+  "@id": "Requirements-TB.FXNREQ.026.C",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.FXNREQ.026.C",
   "schema:name": " Carry out clinical examination",

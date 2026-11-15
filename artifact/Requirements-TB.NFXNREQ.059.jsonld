@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.059.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.059",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.059",
   "schema:name": "Adjust display to fit small screens (e.g. mobile phones)",

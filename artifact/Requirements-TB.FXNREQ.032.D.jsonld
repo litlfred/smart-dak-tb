@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.FXNREQ.032.D.jsonld",
+  "@id": "Requirements-TB.FXNREQ.032.D",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.FXNREQ.032.D",
   "schema:name": " Initiate the treatment and discuss adherence",

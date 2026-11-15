@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.055.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.055",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.055",
   "schema:name": "Use industry-standard user interface practices and apply them consistently throughout the system",

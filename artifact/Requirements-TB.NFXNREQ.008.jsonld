@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.008.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.008",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.008",
   "schema:name": "Provide secure data transmission methods to prevent others from seeing data sent from \none computer to another by using data encryption and private networks across public networks",

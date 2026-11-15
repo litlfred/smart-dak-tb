@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Requirements-TB.NFXNREQ.047.jsonld",
+  "@id": "Requirements-TB.NFXNREQ.047",
   "@type": "fhir:Requirements",
   "dcterms:identifier": "Requirements/TB.NFXNREQ.047",
   "schema:name": "Be able to accommodate at least [x number of]a health-care facilities",

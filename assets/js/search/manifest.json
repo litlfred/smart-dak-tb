@@ -1,0 +1,90 @@
+{
+  "$schema": "folio-search-manifest/v1",
+  "source": {
+    "path": "assets/js/search-data.json",
+    "sha256": "0619c77a22f5d777c2b6ed84e6fae700d32db6d91121361437a56a4ea79a9b1a",
+    "entries": 8444,
+    "bytes": 14083899
+  },
+  "scopes": [
+    {
+      "id": "_platform",
+      "kind": "platform",
+      "path": "assets/js/search/_platform.json",
+      "entries": 59,
+      "bytes": 129020
+    },
+    {
+      "id": "cat-harness",
+      "kind": "instance",
+      "path": "assets/js/search/cat-harness.json",
+      "entries": 6441,
+      "bytes": 10813680,
+      "index": {
+        "path": "assets/js/search/cat-harness.idx.json",
+        "bytes": 34048919
+      }
+    },
+    {
+      "id": "folio-assistant-core",
+      "kind": "instance",
+      "path": "assets/js/search/folio-assistant-core.json",
+      "entries": 1908,
+      "bytes": 2794481,
+      "index": {
+        "path": "assets/js/search/folio-assistant-core.idx.json",
+        "bytes": 7969099
+      }
+    },
+    {
+      "id": "locale-ar",
+      "kind": "locale",
+      "path": "assets/js/search/locale-ar.json",
+      "entries": 6,
+      "bytes": 13557
+    },
+    {
+      "id": "locale-es",
+      "kind": "locale",
+      "path": "assets/js/search/locale-es.json",
+      "entries": 6,
+      "bytes": 11652
+    },
+    {
+      "id": "locale-fr",
+      "kind": "locale",
+      "path": "assets/js/search/locale-fr.json",
+      "entries": 6,
+      "bytes": 12016
+    },
+    {
+      "id": "locale-ru",
+      "kind": "locale",
+      "path": "assets/js/search/locale-ru.json",
+      "entries": 6,
+      "bytes": 15746
+    },
+    {
+      "id": "locale-zh",
+      "kind": "locale",
+      "path": "assets/js/search/locale-zh.json",
+      "entries": 6,
+      "bytes": 10601
+    },
+    {
+      "id": "smart-base",
+      "kind": "instance",
+      "path": "assets/js/search/smart-base.json",
+      "entries": 6,
+      "bytes": 24942
+    }
+  ],
+  "remote": [
+    {
+      "id": "who-iris",
+      "kind": "id-lookup",
+      "href": "id-lookup/?index=who-iris/",
+      "entries": 53
+    }
+  ]
+}
