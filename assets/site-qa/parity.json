@@ -4,46 +4,6 @@
  "shortfall": [],
  "droppedByRuling": [],
  "current": {
-  "pages": 2708,
-  "counts": {
-   "siteNav": 0,
-   "search": 1432,
-   "navbarRow": 1432,
-   "rail": 1432,
-   "translationMeta": 1433
-  },
-  "dirs": [
-   "ar",
-   "artifact",
-   "assets",
-   "cat-harness",
-   "cat-harness-tools",
-   "catalogue",
-   "code",
-   "docs",
-   "en",
-   "es",
-   "fhir-artifact-index",
-   "folio-assistant-core",
-   "fr",
-   "id-lookup",
-   "openapi",
-   "ru",
-   "smart-base",
-   "who-iris",
-   "zh"
-  ],
-  "index": [
-   "search",
-   "navbarRow",
-   "rail",
-   "translationMeta"
-  ],
-  "stamp": {
-   "present": true
-  }
- },
- "candidate": {
   "pages": 4453,
   "counts": {
    "siteNav": 1,
@@ -83,15 +43,55 @@
    "present": true
   }
  },
+ "candidate": {
+  "pages": 4459,
+  "counts": {
+   "siteNav": 1,
+   "search": 2213,
+   "navbarRow": 2213,
+   "rail": 2213,
+   "translationMeta": 2214
+  },
+  "dirs": [
+   "ar",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "cat-harness-tools",
+   "catalogue",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "openapi",
+   "ru",
+   "smart-base",
+   "who-iris",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
  "baseline": {
   "features": {
-   "pages": 4453,
+   "pages": 4459,
    "counts": {
     "siteNav": 1,
-    "search": 2210,
-    "navbarRow": 2210,
-    "rail": 2210,
-    "translationMeta": 2211
+    "search": 2213,
+    "navbarRow": 2213,
+    "rail": 2213,
+    "translationMeta": 2214
    },
    "dirs": [
     "ar",
@@ -124,6 +124,6 @@
     "present": true
    }
   },
-  "from": "e0dd8ee2205d"
+  "from": "d3a1e26a56f8"
  }
 }
